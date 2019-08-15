@@ -34,6 +34,9 @@ This apply for Java, variable names should always be understandable. Better have
 The name should say what it does or represents, again long is better than short. Names like `Executor` or `do()` should be avoided as are unclear on what is happening inside that.
 
 ## Code Style
+We try to follow standards as much as we can, if you are deciding between a standard and a not standard way always go for the standard way. 
+### Python
+For our code in Python you should follow the [PEP8 specifications](https://www.python.org/dev/peps/pep-0008/), if possible integrating a linter that check for this or using an IDE that enforce it is strongly recommended.
 
 ### Format your code
 Always, no exceptions, ever.
