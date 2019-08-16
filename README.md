@@ -3,13 +3,15 @@
 ## Overview of projects
 
 - [`CHARS core harvesting system`](https://bitbucket.org/kmi-ou/chars-core-harvesting-system/) : SpringBoot The CORE Harvesting system
-- [`core-frontend`](https://bitbucket.org/kmi-ou/core-front-end): Symfony app for the backend to the frontend (crazy right?)
-- [`core-fileserver`](https://bitbucket.org/kmi-ou/core-similarities): Symfony app for serving the file and using the file server
+- [`core-api`](https://bitbucket.org/kmi-ou/core-api/): API supporting the core-frontend and other frontend facing services
+- [`core-frontend`](https://github.com/oacore/next) the frontend, it includes all the static pages and the styles of https://core.ac.uk
+- [`core-frontend-legacy`](https://bitbucket.org/kmi-ou/core-front-end): Legacy Symfony frontend apps (search, recommender etc)
+- [`core-fileserver`](https://bitbucket.org/kmi-ou/core-fileserver): Symfony app for serving the file and using the file server
 - [`repository-dashboard`](https://bitbucket.org/kmi-ou/repository-dashboard) : Symfony app dedicated to the dashboard
 - [`configurations`](https://bitbucket.org/kmi-ou/configurations): the properties of the web servers and the app servers
 - [`resync-gen-api`](https://bitbucket.org/kmi-ou/resync-gen-api): the generator for the CORE Fastsync sitemaps
 - [`spark-core`](https://bitbucket.org/kmi-ou/spark-core): code related to MUCC (Microsoft, Unpaywall, Crossref, CORE)
-- [`next`](https://github.com/oacore/next) the frontend, it includes all the static pages and the styles of https://core.ac.uk
+
  
 ## How we manage the projects: Git Flow
 ![Git flow](https://wac-cdn.atlassian.com/dam/jcr:b5259cce-6245-49f2-b89b-9871f9ee3fa4/03%20(2).svg?cdnVersion=515)
