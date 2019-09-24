@@ -1,7 +1,5 @@
 # CORE styleguide
 
-# CORE styleguide
-
 ## Overview of projects
 
 - [`CHARS core harvesting system`](https://bitbucket.org/kmi-ou/chars-core-harvesting-system/) : SpringBoot The CORE Harvesting system
