@@ -47,4 +47,5 @@ All the iterator items should be wrapped with `{}`. One-line iterations are diff
 
 ### Exceptions
 Always log your exceptions, unless your exception is handled properly in the code. Avoid to mute exceptions even if they will "never happen" as they add blind spot for maintaing the code.
+In Java, please avoid to use `printStacktrace()` and use `logger.error`. In general we want to be careful with exception handling we don't want to hide them but we also want to manage them properly. [This is a good reference on what to do with exceptions.](http://wiki.c2.com/?DontCatchExceptions)
 
