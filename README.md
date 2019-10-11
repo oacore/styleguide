@@ -33,7 +33,13 @@ This apply for Java, variable names should always be understandable. Better have
 The name should say what it does or represents, again long is better than short. Names like `Executor` or `do()` should be avoided as are unclear on what is happening inside that.
 
 ## Code Style
-We try to follow standards as much as we can, if you are deciding between a standard and a not standard way always go for the standard way. 
+We try to follow standards as much as we can, if you are deciding between a standard and a not standard way always go for the standard way.
+
+### PHP
+Symfony 4+ projects should follow the [Symfony Coding Standards](https://symfony.com/doc/current/contributing/code/standards.html). You may use [php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) to automatically correct this along with [IDE plugins](https://github.com/FriendsOfPHP/PHP-CS-Fixer#helpers).
+
+You must run php-cs-fixer before committing. Avoid mixing a code change and a whole-file code format in the same commit. These should be made separately for easier code review.
+
 ### Python
 For our code in Python you should follow the [PEP8 specifications](https://www.python.org/dev/peps/pep-0008/), if possible integrating a linter that check for this or using an IDE that enforce it is strongly recommended.
 
