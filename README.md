@@ -45,6 +45,10 @@ All the parameters need getters and setters and a `toString()`
 ### Wrap your `if`s `while`s etc.
 All the iterator items should be wrapped with `{}`. One-line iterations are difficult to read and makes the code more error prone.
 
+### Dates in Java
+As we now moved to Java8 please use all the different date entity accordingly. `Instant` for timestamp, `Duration` for duration, `LocalDate` for date, `LocalDateTime` for date-time. 
+
+
 ### Exceptions
 Always log your exceptions, unless your exception is handled properly in the code. Avoid to mute exceptions even if they will "never happen" as they add blind spot for maintaing the code.
 In Java, please avoid to use `printStacktrace()` and use `logger.error`. In general we want to be careful with exception handling we don't want to hide them but we also want to manage them properly. [This is a good reference on what to do with exceptions.](http://wiki.c2.com/?DontCatchExceptions)
